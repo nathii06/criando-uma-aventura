@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Em busca do tesouro perdido</title>
+</head>
+<body>
+    <section>
+        <div class="passo ativo" id="passo-0">
+            <img src="./img/mapa.jpg" alt="">
+            <p>Você encontra um antigo mapa em uma loja de antiguidades. O mapa promete levar a um tesouro perdido. Você decide seguir o mapa. Qual caminho escolherá?</p>
+            <button class="btn-proximo" data-proximo="1">Seguir pelo caminho da floresta</button>
+            <button class="btn-proximo" data-proximo="2">Explorar a caverna misteriosa</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <img src="./img/floresta.jpg" alt="">
+            <p>Você entra na floresta e segue o mapa. Depois encontra uma bifurcação na trilha. De um lado, o caminho leva a um lago. Do outro, um cainho mais íngreme para uma montanha. Qual caminho você escolherá?</p>
+            <button class="btn-proximo" data-proximo="3">Ir para o lago</button>
+            <button class="btn-proximo" data-proximo="4">Subir a montanha</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <img src="./img/caverna.jpg" alt="">
+            <p>A caverna é escura e úmida. No fundo, você encontra duas saídas: uma está adornada com ruínas antigas e a outra parece mais simples. Qual saída você escolherá?</p>
+            <button class="btn-proximo" data-proximo="5">Entrar pela saída das ruínas</button>
+            <button class="btn-proximo" data-proximo="6">Entrar pela saída simples</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <img src="./img/lago.jpg" alt="">
+            <p>O lago é tranquilo e bonito. Você encontra uma pequena ilha com uma caixa antiga. Ao abri-la, encotra um enigma. Resolva-o para descobrir o próximo passo.</p>
+            <p>"O que sempre está à frente de você, mas nunca pode ser visto?</p>
+            <button class="btn-proximo" data-proximo="7">Resolver enigma e continuar</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <img src="./img/templo.jpg" alt="">
+            <p>Você decide subir a montanha e encontra um templo antigo. Dentro dele, há uma caixa trancada. Você precisa encontrá-la em algum lugar.</p>
+            <button class="btn-proximo" data-proximo="8">Procurar pela chave</button>
+        </div>
+        <div class="passo" id="passo-5">
+            <img src="./img/tesouro.jfif" alt="">
+            <p>Você entra pela saída das ruínas e encontra o tesouro perdido: ouros e jóias</p>
+            <button class="btn-proximo" data-proximo="9">Fim de jogo</button>
+        </div>
+        <div class="passo" id="passo-6">
+            <p>Ao entrar na saída simples, você se depara com um buraco profundo. Infelizmente, você escorrega e cai dentro dele, e não há ninguém por perto para lhe salvar.</p>
+            <button class="btn-proximo" data-proximo="10">Fim do jogo</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>Você resolve o enigma. "O futuro". Com isso, um novo caminho se revela no lago, levando você a uma caverna secreta. Dentro, está o tesouro perdido: ouro e jóias.</p>
+            <button class="btn-proximo" data-proximo="11">Fim do jogo</button>
+        </div>
+        <div class="passo" id="passo-8">
+            <img src="./img/tesouro.jfif" alt="">
+            <p>Você encontra a chave e a usa para abrir a caixa. Dentro, encontra outro mapa e este leva ao tesouro perdido escondido na floresta: ouro e jóias.</p>
+            <button class="btn-proximo" data-proximo="12">Fim do jogo</button>
+        </div>
+        <div class="passo" id="passo-9">
+            <p>Parabéns! Você encontrou o tesouro perdido e completou a aventura com sucesso!</p>
+            <button class="btn-proximo" data-proximo="13">Começar novamente</button>
+        </div>
+        <div class="passo" id="passo-10">
+            <p>O jogo chegou ao fim. Você falhou em sua jornada para encontrar o tesouro perdido. Tente novamente para ver se consegue encontrar o caminho certo.</p>
+        </div>
+    </section>
+    <script src="./script.js"></script>
+</body>
+</html>
